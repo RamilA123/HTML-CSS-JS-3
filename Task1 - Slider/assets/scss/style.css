@@ -1,0 +1,80 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 860px;
+}
+
+#slider {
+  margin-left: 6%;
+  overflow: hidden;
+}
+
+#slider .highlights {
+  font-family: ui-sans-serif;
+}
+
+#slider .highlights span {
+  color: #00415c;
+  font-size: 29px;
+}
+
+#slider .highlights i {
+  position: relative;
+  top: 3px;
+  font-size: 28px;
+  -webkit-text-stroke: 1px white;
+  color: #047eb3;
+  cursor: pointer;
+}
+
+#slider .highlights .left {
+  margin-left: 45px;
+  opacity: 0.5;
+}
+
+#slider .highlights .right {
+  margin-left: 17px;
+}
+
+#slider .contents {
+  font-family: ui-sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 89px;
+}
+
+#slider .contents a {
+  text-decoration: none;
+}
+
+#slider .contents .image {
+  width: 223px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#slider .contents .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: inherit;
+}
+
+#slider .contents p {
+  width: 210px;
+  font-size: 19px;
+  color: #00415c;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#slider .contents span {
+  color: #00415c;
+}
+/*# sourceMappingURL=style.css.map */
